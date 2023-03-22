@@ -1,0 +1,19 @@
+{
+  "name": "ruoyi-nodejs",
+  "version": "1.0.0",
+  "description": "ruoyi nodejs version",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "xiaoming985",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-assert": "^1.5.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.2"
+  }
+}
