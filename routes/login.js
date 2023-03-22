@@ -5,7 +5,7 @@ const router = express.Router()
 const assert = require('http-assert')
 const jwt = require('jsonwebtoken')
 
-const User = require('../../models/User')
+const User = require('../models/User')
 // const Record = require('../../models/system/Record')
 
 /**
@@ -50,4 +50,4 @@ router.post('/logout', async (req, res) => {
   })
 })
 
-module.export = router
+module.exports = router
